@@ -739,6 +739,15 @@ Absolutely — here is a complete single-file HTML implementation. Save it as `b
         width: 100%;
         margin-top: 25px;
       }
+      step.active .next-btn {
+  position: fixed;
+  left: 15px;
+  right: 15px;
+  bottom: 20px;
+  width: calc(100vw - 30px);
+  margin: 0;
+  z-index: 100;
+}
 
       .polaroid {
         width: min(330px, 82vw);
